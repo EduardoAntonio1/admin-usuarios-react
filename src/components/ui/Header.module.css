@@ -1,0 +1,24 @@
+.contenedor {
+  padding: 0 3rem;
+  color: white;
+  background-color: #4dd0e1;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo a {
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+}
+.nav a {
+  text-decoration: none;
+  font-weight: 700;
+  color: white;
+  font-size: 20px;
+}
+.nav a:hover {
+  color: #5e4de1;
+}

@@ -1,0 +1,66 @@
+.card {
+  padding: 1rem;
+  height: auto;
+  background-color: #efefef;
+  border-radius: 0.5rem;
+  text-align: center;
+  align-items: center;
+  color: rgb(61, 61, 61);
+  border: 1px solid rgb(187, 187, 187);
+  -webkit-box-shadow: 0px 15px 36px -9px rgba(77, 208, 225, 1);
+  -moz-box-shadow: 0px 15px 36px -9px rgba(77, 208, 225, 1);
+  box-shadow: 0px 15px 36px -9px rgba(77, 208, 225, 1);
+}
+
+.form {
+  padding: 1rem;
+  width: 40rem;
+  text-align: start;
+}
+
+.control {
+  margin-bottom: 0.5rem;
+}
+
+.control label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.control input,
+.control textarea {
+  display: block;
+  font: inherit;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  text-indent: 5px;
+  padding: 0.4rem;
+  width: 100%;
+}
+
+.control input {
+  line-height: 0.4rem;
+}
+
+.actions {
+  margin-top: 1rem;
+  text-align: right;
+}
+
+.actions button {
+  font: inherit;
+  cursor: pointer;
+  background-color: #4caf50;
+  color: white;
+  padding: 0.5rem 1.5rem;
+  border: 1px solid #4caf50;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.actions button:hover,
+.actions button:active {
+  background-color: #4caf50;
+  border-color: #4caf50;
+}
